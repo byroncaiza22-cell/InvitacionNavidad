@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Invitación Especial</title>
+
+    <style>
+        body {
+            font-family: "Georgia", serif;
+            background-color: #f7f2e9;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/89/Old_paper_texture_-_May_2020.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .container {
+            max-width: 750px;
+            margin: 40px auto;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Old_paper_background_2.jpg/1280px-Old_paper_background_2.jpg');
+            background-size: cover;
+            border-radius: 14px;
+            padding: 40px;
+            box-shadow: 0 0 25px rgba(0,0,0,0.3);
+            position: relative;
+        }
+
+        /* Iniciales en las esquinas */
+        .initials {
+            position: absolute;
+            font-size: 36px;
+            font-weight: bold;
+            color: #8b4a32;
+            font-family: 'Great Vibes', cursive;
+            opacity: 0.6;
+        }
+        .initials.top-left { top: 15px; left: 20px; }
+        .initials.top-right { top: 15px; right: 20px; }
+        .initials.bottom-left { bottom: 15px; left: 20px; }
+        .initials.bottom-right { bottom: 15px; right: 20px; }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            font-size: 38px;
+            color: #5a2f2f;
+            text-shadow: 1px 1px 2px #00000040;
+            margin: 0;
+        }
+
+        .content {
+            font-size: 19px;
+            color: #4b2e1e;
+            line-height: 1.8;
+        }
+
+        .content img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 18px;
+            border: 3px solid #7a4a37;
+        }
+
+        .footer {
+            margin-top: 35px;
+            text-align: center;
+            color: #4a3a32;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        .fade-in {
+            opacity: 0;
+            animation: fade 2s forwards;
+        }
+        @keyframes fade {
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container fade-in">
+
+        <!-- Iniciales VC en las esquinas -->
+        <div class="initials top-left">VC</div>
+        <div class="initials top-right">VC</div>
+        <div class="initials bottom-left">VC</div>
+        <div class="initials bottom-right">VC</div>
+
+        <div class="header">
+            <h1>Una Invitación Especial</h1>
+        </div>
+
+        <div class="content">
+            <p>Mi querida <strong>Viviana</strong>,</p>
+
+            <p>
+                Quiero invitarte nuevamente a un momento muy especial, algo que tú y yo ya hemos compartido antes
+                y que deseo profundamente que se convierta en una hermosa tradición entre los dos.
+            </p>
+
+            <p>
+                La cita será el <strong>27 de diciembre</strong>.<br>
+                Me encantaría que te arregles y te pongas muy linda, incluso más de lo que ya eres,
+                porque pasaré por ti a las <strong>16:30 pm</strong>.
+            </p>
+
+            <p>
+                No olvides llevar un abrigo; hará algo de frío, y quiero que estés cómoda para disfrutar
+                de una vista preciosa que estoy seguro te va a encantar.
+            </p>
+
+            <p>
+                Esta invitación es una sorpresa… así que el nombre del lugar aún debe mantenerse en secreto.
+            </p>
+
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/7d/74/97/vista-hermosa-centro.jpg?h=500&s=1&w=900"
+                 alt="Vista del centro histórico">
+
+            <p>
+                Estoy muy emocionado por compartir este momento contigo.<br>
+                Con cariño,<br>
+                <em>Byron</em>
+            </p>
+        </div>
+
+        <div class="footer">
+            *Una tradición que nace del corazón…*
+        </div>
+
+    </div>
+</body>
+</html>
